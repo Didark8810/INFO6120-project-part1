@@ -38,7 +38,7 @@ public class mainfile {
 		        	System.out.println("bye =)");		
 		        }
 		        else {
-		        	System.out.println("Invalid command");
+		        	System.out.println("Invalid command *_*");
 		        }
 	        }
 	        scanner.close();   
