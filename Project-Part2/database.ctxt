@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=database
+comment1.params=
+comment1.target=java.sql.Connection\ connect()
+comment2.params=
+comment2.target=javafx.collections.ObservableList\ selectAll()
+comment3.params=firstName\ lastName
+comment3.target=void\ insertRow(java.lang.String,\ java.lang.String)
+comment4.params=firstName\ lastName
+comment4.target=void\ deleteRow(java.lang.String,\ java.lang.String)
+numComments=5

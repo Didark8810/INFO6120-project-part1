@@ -1,0 +1,60 @@
+.root {
+    -fx-font-family: Arial, sans-serif;
+    -fx-padding: 20px;
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.label {
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10px 0;
+}
+
+.text-field {
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-background-color: #fff;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+.list-view {
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-background-color: #fff;
+}
+
+.button {
+    -fx-padding: 5px 10px;
+    -fx-border-color: transparent;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-background-color: #007bff;
+    -fx-text-fill: #fff;
+    -fx-font-size: 12pt;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button-secondary {
+    -fx-background-color: #6c757d;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #5a6268;
+}
+
+.container {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
